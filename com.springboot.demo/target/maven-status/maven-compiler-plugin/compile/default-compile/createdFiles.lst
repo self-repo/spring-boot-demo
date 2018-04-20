@@ -1,0 +1,5 @@
+com\springboot\demo\Application.class
+com\springboot\demo\WebController.class
+com\springboot\demo\HealthCheckApiController.class
+com\springboot\demo\SwaggerConfig.class
+com\springboot\demo\AppController.class
