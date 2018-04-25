@@ -34,14 +34,7 @@ public class StormUIMonitor {
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
-				if (result == null || result.contains("html"))
-					try {
-						HttpClientUtils.getInstance()
-								.get("http://vrc.vip.vip.com/data/notification/send-sms?tels=13770967225,13636501780,15900848472&message="
-										+ url + "-ui-down", 30000);
-					} catch (IOException e) {
-						e.printStackTrace();
-					}
+				
 			}
 			try {
 				Thread.sleep(60000L);
